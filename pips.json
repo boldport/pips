@@ -1,0 +1,635 @@
+{
+  "components": {
+    "B1": {
+      "footprint": "9v-battery-contact", 
+      "layer": "bottom", 
+      "location": [
+        -0.312067, 
+        24.138102
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "C1": {
+      "footprint": "flat-resistor-pads", 
+      "layer": "bottom", 
+      "location": [
+        65.149683, 
+        -4.220425
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "IC1": {
+      "footprint": "CD4060-PDIP16", 
+      "layer": "top", 
+      "location": [
+        -7.051363, 
+        -14.43049
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "location": [
+            0, 
+            0
+          ], 
+          "show": false
+        }, 
+        "shapes": {
+          "show": true
+        }
+      }
+    }, 
+    "J1": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "antenna", 
+      "layer": "top", 
+      "location": [
+        -72.122602, 
+        44.050269
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
+    }, 
+    "J2": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "antenna", 
+      "layer": "top", 
+      "location": [
+        -71.011482, 
+        37.768998
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
+    }, 
+    "J3": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "wire-jumper", 
+      "layer": "top", 
+      "location": [
+        -78.197273, 
+        7.757302
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": true
+        }
+      }
+    }, 
+    "J4": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "wire-jumper", 
+      "layer": "top", 
+      "location": [
+        -78.197273, 
+        4.547916
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": true
+        }
+      }
+    }, 
+    "J5": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "wire-jumper", 
+      "layer": "top", 
+      "location": [
+        -78.197273, 
+        -1.870804
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": true
+        }
+      }
+    }, 
+    "J6": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "wire-jumper", 
+      "layer": "top", 
+      "location": [
+        -78.197273, 
+        -5.080189
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": true
+        }
+      }
+    }, 
+    "J7": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "wire-jumper", 
+      "layer": "top", 
+      "location": [
+        -90.718773, 
+        2.564025
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": true
+        }
+      }
+    }, 
+    "J8": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "wire-jumper", 
+      "layer": "top", 
+      "location": [
+        -78.197273, 
+        -23.453682
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": true
+        }
+      }
+    }, 
+    "LED1": {
+      "footprint": "led-5mm", 
+      "layer": "top", 
+      "location": [
+        140.56291, 
+        3.512729
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "LED2": {
+      "footprint": "led-5mm", 
+      "layer": "top", 
+      "location": [
+        74.080489, 
+        11.819335
+      ], 
+      "rotate": 180, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "LED3": {
+      "footprint": "led-5mm", 
+      "layer": "top", 
+      "location": [
+        140.1223, 
+        -10.371943
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "LED4": {
+      "footprint": "led-5mm", 
+      "layer": "top", 
+      "location": [
+        73.641118, 
+        5.338674
+      ], 
+      "rotate": 180, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "LED5": {
+      "footprint": "led-5mm", 
+      "layer": "top", 
+      "location": [
+        140.4315, 
+        -3.499982
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "LED6": {
+      "footprint": "led-5mm", 
+      "layer": "top", 
+      "location": [
+        127.64105, 
+        -20.027702
+      ], 
+      "rotate": 180, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "LED7": {
+      "footprint": "led-5mm", 
+      "layer": "top", 
+      "location": [
+        140.1015, 
+        -16.77666
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "LED8": {
+      "footprint": "led-5mm", 
+      "layer": "top", 
+      "location": [
+        70.506104, 
+        -30.894494
+      ], 
+      "rotate": 180, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R3": {
+      "assembly": {
+        "refdef": {
+          "show": false
+        }
+      }, 
+      "footprint": "resistor-jumper", 
+      "layer": "top", 
+      "location": [
+        -78.197273, 
+        1.338531
+      ], 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }, 
+        "shapes": {
+          "show": false
+        }
+      }
+    }, 
+    "SW1": {
+      "footprint": "switch", 
+      "layer": "bottom", 
+      "location": [
+        134.48801, 
+        28.476729
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "TP1": {
+      "footprint": "test-point", 
+      "layer": "bottom", 
+      "location": [
+        103.73367, 
+        -14.078798
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "TP2": {
+      "footprint": "test-point", 
+      "layer": "bottom", 
+      "location": [
+        98.071105, 
+        -15.88456
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "TP3": {
+      "footprint": "test-point", 
+      "layer": "bottom", 
+      "location": [
+        100.43096, 
+        -20.147393
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }
+  }, 
+  "config": {
+    "name": "pips", 
+    "no-docs": false, 
+    "no-drill-index": false, 
+    "no-flashes": false, 
+    "no-layer-index": false, 
+    "rev": "second", 
+    "style-layout": "default", 
+    "units": "mm"
+  }, 
+  "distances": {
+    "from-pour-to": {
+      "drill": 0.4, 
+      "outline": 0.4, 
+      "pad": 0.4, 
+      "route": 0.4
+    }, 
+    "soldermask": {
+      "circle-buffer": 0.05, 
+      "path-scale": 1.05, 
+      "rect-buffer": 0.05
+    }, 
+    "solderpaste": {
+      "circle-buffer": -0.1, 
+      "path-scale": 0.9, 
+      "rect-buffer": -0.1
+    }
+  }, 
+  "documentation": {
+    "board-details": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.5mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.5mm", 
+      "location": [
+        65.027078, 
+        0.89823975
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Board details:\nName: Pips\nRevision: first\nDescription: electronic die\nLicense: MIT\nCompany: Boldport\nDesigner: Saar Drimer, saar@boldport.com"
+    }, 
+    "manufacturing": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.5mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.5mm", 
+      "location": [
+        68.179061, 
+        -12.113962
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Manufacturing:\nRoHS and lead free compliant manufacturing process\nUnit of length: Millimetre (mm)\nNumber of layers: 2 ('top', 'bottom')\nBoard thickness: 1.6 mm\nMaterial: FR4 35/35 um copper\nSilkscreen: top, bottom, white\nSoldermask: top, bottom, red\nSurface finish: ENIG"
+    }, 
+    "pcbmode": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.2mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.2mm", 
+      "location": [
+        64.36907, 
+        -22.841212
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Designed with PCBmodE, an open source software\n     http://pcbmode.com\nStay updated:\n     @boldport @pcbmode http://boldport.com"
+    }
+  }, 
+  "drill-index": {
+    "location": [
+      52.247781, 
+      10.083663
+    ]
+  }, 
+  "drills": {}, 
+  "files": {
+    "routing-data": "pips_routing.json", 
+    "routing-svg": "pips.svg"
+  }, 
+  "gerber": {
+    "decimals": 6, 
+    "digits": 6, 
+    "min-segment-length": 0.05, 
+    "steps-per-segment": 100
+  }, 
+  "layer-control": {
+    "assembly": {
+      "hide": false, 
+      "lock": false, 
+      "place": true
+    }, 
+    "conductor": {
+      "hide": false, 
+      "lock": false, 
+      "pads": {
+        "hide": false, 
+        "lock": false, 
+        "place": true
+      }, 
+      "place": true, 
+      "pours": {
+        "hide": false, 
+        "lock": true, 
+        "place": true
+      }, 
+      "routing": {
+        "hide": false, 
+        "lock": false, 
+        "place": true
+      }
+    }, 
+    "dimensions": {
+      "hide": false, 
+      "lock": true, 
+      "place": true
+    }, 
+    "documentation": {
+      "hide": false, 
+      "lock": false, 
+      "place": true
+    }, 
+    "drills": {
+      "hide": false, 
+      "lock": false, 
+      "place": true
+    }, 
+    "origin": {
+      "hide": false, 
+      "lock": true, 
+      "place": true
+    }, 
+    "outline": {
+      "hide": false, 
+      "lock": true, 
+      "place": true
+    }, 
+    "placement": {
+      "hide": false, 
+      "lock": false, 
+      "place": true
+    }, 
+    "silkscreen": {
+      "hide": false, 
+      "lock": false, 
+      "place": true
+    }, 
+    "soldermask": {
+      "hide": false, 
+      "lock": false, 
+      "place": true
+    }, 
+    "solderpaste": {
+      "hide": true, 
+      "lock": true, 
+      "place": true
+    }
+  }, 
+  "outline": {
+    "shape": {
+      "height": 100, 
+      "type": "rect", 
+      "value": "m -11.030071,-123.33432 c 0.01275,19.07308 0.02549,38.146164 0.03824,57.219246 4.2359097,-0.299384 5.5033697,-2.415345 8.5927564,-0.992704 3.7852356,1.743075 4.9080796,-0.51163 9.1136576,0.01654 3.130458,0.512987 7.281135,-0.946754 7.819676,-4.619874 0.538546,-3.673121 -1.040395,-7.257561 -1.809708,-10.671702 -1.200935,-4.855557 1.959788,-2.483464 7.870839,-3.075781 5.87449,-0.588656 2.947876,-7.009054 8.146272,-10.084658 6.016625,-3.55969 9.634691,-6.145047 9.397875,-8.018117 -0.236812,-1.87306 0.343324,-4.43391 0.01603,-5.30148 -0.328726,-0.87136 -1.611418,-2.48166 -2.878894,-3.61425 -1.310479,-1.17103 -4.133101,-2.26719 -6.084901,-3.21376 -2.719565,-1.31892 -7.028148,-2.26053 -11.44633,-2.7342 -6.02325,-0.55065 -8.537226,-0.0501 -14.363464,1.76217 -2.59391503,0.80762 -4.32608303,1.63768 -5.032251,2.07326 -0.7061679,0.43557 -2.395588,1.32607 -2.80138,-0.24856 -0.4057913,-1.57464 1.1174205,-1.35122 1.1038104,-3.30781 0.038235,-1.90898 -2.1101057,-1.71909 -2.3021847,-2.38384 -0.1446,-0.50044 -1.198801,-1.92942 -1.880508,-2.16834 -1.233077,-0.29844 -2.382432,-0.52321 -3.4995267,-0.63614 -3e-6,0 -6e-6,0 -9e-6,0 z m -2.086695,-0.0708 c -1.375714,0.0543 -2.752656,0.3223 -4.234365,0.87953 -0.712475,0.2939 -1.160674,1.49466 -1.42317,1.96526 -0.297849,0.53398 -2.384716,0.695 -2.116667,2.5585 0.26805,1.8635 1.637679,1.75799 1.636075,2.91455 -0.0016,1.15656 -1.082804,1.18107 -1.794205,0.48421 -1.152896,-1.12933 -3.740936,-2.66324 -6.967017,-4.04885 -3.249131,-1.39551 -15.741071,-1.29137 -20.480402,-0.19844 -4.739331,1.09293 -7.200717,2.33605 -9.543603,4.71031 -2.342886,2.37426 -3.695088,5.20039 -3.899504,5.64772 -0.491843,0.86548 -0.805108,4.56519 0.230994,6.62233 1.815511,3.604627 7.526555,2.506557 8.737968,8.742099 1.359961,7.000166 8.067914,8.804669 13.216764,8.796877 0.685306,-0.0011 3.357963,-0.39565 2.531112,2.305805 -0.52994,1.731396 -2.368482,5.606155 -2.602426,8.529711 -0.235323,2.940805 1.272436,6.160382 5.283398,6.366021 1.223814,0.06274 2.551777,0.989161 4.059185,0.400492 3.127758,-1.221441 4.148201,0.911921 6.238893,-0.184486 3.851442,-2.019782 5.236364,0.402513 11.069093,0.776182 0.01929,-19.089274 0.03858,-38.178551 0.05788,-57.267821 z",
+      "width": 50
+    }
+  }, 
+  "shapes": {
+    "BLB": {
+      "footprint": "boldport-logo-b", 
+      "layer": "bottom", 
+      "location": [
+        70.895463, 
+        -21.209128
+      ], 
+      "show": true, 
+      "sikscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }
+  }, 
+  "soldermask": {
+    "circle-buffer": 0.05, 
+    "path-scale": 1.05, 
+    "rect-buffer": 0.05
+  }, 
+  "solderpaste": {
+    "circle-buffer": -0.1, 
+    "path-scale": 0.9, 
+    "rect-buffer": -0.1
+  }, 
+  "stackup": {
+    "name": "two-layer"
+  }, 
+  "vias": {
+    "default-via": "VIA"
+  }
+}
