@@ -25,10 +25,20 @@
       "shapes":
       [
         {
-	  "layers": ["top"],
+	  "layers": ["top", "bottom"],
           "type": "rect",
-          "height": 6.7,
-          "width": 6.7,
+          "height": 6.9,
+          "width": 6.9,
+          "stroke-width": 0.8,
+          "radii": {"tl": 0.35, "tr": 0.35, "bl": 0.35, "br": 0.35}
+        },
+        {
+	  "layers": ["top", "bottom"],
+          "type": "rect",
+          "height": 1.5,
+          "width": 1.5,
+          "style": "fill",
+          "stroke-width": 0.8,
           "radii": {"tl": 0.15, "tr": 0.15, "bl": 0.15, "br": 0.15}
         }
       ]
@@ -67,8 +77,8 @@
 	  "layers": ["top", "bottom"],
           "type": "rect",
           "height": 1.8,
-          "width": 7,
-          "location": [-3.5,0],
+          "width": 5,
+          "location": [-2.5,0],
           "radii": {"tl": 0.25, "tr": 0.25, "bl": 0.25, "br": 0.25}
         }
       ],
