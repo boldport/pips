@@ -19,8 +19,8 @@
       "footprint": "th-capacitor", 
       "layer": "top", 
       "location": [
-        -1.785408, 
-        -19.835331
+        7.89384, 
+        1.628431
       ], 
       "rotate": 90, 
       "show": true, 
@@ -30,12 +30,12 @@
         }
       }
     }, 
-    "C3": {
+    "C2": {
       "footprint": "th-capacitor", 
       "layer": "top", 
       "location": [
-        7.89384, 
-        1.628431
+        -11.310409, 
+        -20.364498
       ], 
       "rotate": 90, 
       "show": true, 
@@ -49,7 +49,7 @@
       "footprint": "th-diode", 
       "layer": "top", 
       "location": [
-        7.619998, 
+        0, 
         19.069678
       ], 
       "rotate": -90, 
@@ -79,10 +79,10 @@
       "footprint": "th-diode", 
       "layer": "top", 
       "location": [
-        4.450709, 
-        9.123402
+        7.619998, 
+        19.069678
       ], 
-      "rotate": 0, 
+      "rotate": -90, 
       "show": true, 
       "silkscreen": {
         "refdef": {
@@ -109,10 +109,10 @@
       "footprint": "th-diode", 
       "layer": "top", 
       "location": [
-        0, 
-        19.069678
+        4.450709, 
+        9.123402
       ], 
-      "rotate": -90, 
+      "rotate": 0, 
       "show": true, 
       "silkscreen": {
         "refdef": {
@@ -121,6 +121,21 @@
       }
     }, 
     "IC1": {
+      "footprint": "PNP-TO92", 
+      "layer": "top", 
+      "location": [
+        -6.725139, 
+        11.116805
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "IC2": {
       "footprint": "CD4060-PDIP16", 
       "layer": "top", 
       "location": [
@@ -142,22 +157,7 @@
         }
       }
     }, 
-    "IC2": {
-      "footprint": "PNP-TO92", 
-      "layer": "top", 
-      "location": [
-        -6.725139, 
-        11.116805
-      ], 
-      "rotate": 0, 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "J10": {
+    "J1": {
       "footprint": "1x10-2p54mm-header-stag", 
       "layer": "top", 
       "location": [
@@ -172,7 +172,7 @@
         }
       }
     }, 
-    "J11": {
+    "J2": {
       "footprint": "1x10-2p54mm-header-stag", 
       "layer": "top", 
       "location": [
@@ -326,7 +326,7 @@
       "footprint": "th-resistor", 
       "layer": "top", 
       "location": [
-        11.43, 
+        -3.81, 
         19.069678
       ], 
       "rotate": 90, 
@@ -341,7 +341,7 @@
       "footprint": "th-resistor", 
       "layer": "top", 
       "location": [
-        -11.43, 
+        11.43, 
         19.069678
       ], 
       "rotate": 90, 
@@ -356,7 +356,7 @@
       "footprint": "th-resistor", 
       "layer": "top", 
       "location": [
-        -7.62, 
+        -11.43, 
         19.069678
       ], 
       "rotate": 90, 
@@ -371,7 +371,7 @@
       "footprint": "th-resistor", 
       "layer": "top", 
       "location": [
-        -3.81, 
+        -7.62, 
         19.069678
       ], 
       "rotate": 90, 
@@ -386,21 +386,6 @@
       "footprint": "th-resistor", 
       "layer": "top", 
       "location": [
-        6.578431, 
-        -17.834677
-      ], 
-      "rotate": 0, 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "R6": {
-      "footprint": "th-resistor", 
-      "layer": "top", 
-      "location": [
         -8.157058, 
         1.628431
       ], 
@@ -412,22 +397,7 @@
         }
       }
     }, 
-    "R7": {
-      "footprint": "th-resistor", 
-      "layer": "top", 
-      "location": [
-        6.519685, 
-        -21.834677
-      ], 
-      "rotate": 0, 
-      "show": true, 
-      "silkscreen": {
-        "refdef": {
-          "show": false
-        }
-      }
-    }, 
-    "R9": {
+    "R6": {
       "footprint": "th-resistor", 
       "layer": "top", 
       "location": [
@@ -442,14 +412,44 @@
         }
       }
     }, 
+    "R7": {
+      "footprint": "th-resistor", 
+      "layer": "top", 
+      "location": [
+        -2.946569, 
+        -18.363844
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R8": {
+      "footprint": "th-resistor", 
+      "layer": "top", 
+      "location": [
+        -3.005315, 
+        -22.363844
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
     "SW1": {
       "footprint": "pushbutton-2contacts", 
       "layer": "top", 
       "location": [
-        -8.213072, 
-        -20.507804
+        8.211667, 
+        -20.364498
       ], 
-      "rotate": 0, 
+      "rotate": 180, 
       "show": true, 
       "silkscreen": {
         "refdef": {
@@ -632,8 +632,8 @@
       "footprint": "boldport-logo-b", 
       "layer": "bottom", 
       "location": [
-        6.464861, 
-        -20.08396
+        -3.060139, 
+        -20.613127
       ], 
       "scale": 0.8, 
       "show": true, 
@@ -651,9 +651,28 @@
       ], 
       "show": true
     }, 
-    "PIPS": {
+    "LEG": {
+      "footprint": "ss-legend", 
+      "location": [
+        0, 
+        -2.161061
+      ], 
+      "show": true
+    }, 
+    "PIPS-B": {
       "footprint": "pips", 
       "layer": "bottom", 
+      "location": [
+        0, 
+        -3.46104
+      ], 
+      "rotate": -90, 
+      "scale": 0.8, 
+      "show": true
+    }, 
+    "PIPS-T": {
+      "footprint": "pips", 
+      "layer": "top", 
       "location": [
         0, 
         -3.46104
