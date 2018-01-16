@@ -689,6 +689,14 @@
       ], 
       "show": true
     }, 
+    "POL": {
+      "footprint": "polarity", 
+      "location": [
+        0, 
+        -12
+      ], 
+      "show": true
+    }, 
     "THIEV": {
       "footprint": "thieving", 
       "location": [
