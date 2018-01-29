@@ -417,7 +417,7 @@
       "layer": "top", 
       "location": [
         -2.946569, 
-        -18.363844
+        -16.919914
       ], 
       "rotate": 0, 
       "show": true, 
@@ -431,8 +431,23 @@
       "footprint": "th-resistor", 
       "layer": "top", 
       "location": [
+        -2.946569, 
+        -19.704028
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R9": {
+      "footprint": "th-resistor", 
+      "layer": "top", 
+      "location": [
         -3.005315, 
-        -22.363844
+        -22.48941
       ], 
       "rotate": 0, 
       "show": true, 
@@ -450,6 +465,21 @@
         -20.364498
       ], 
       "rotate": 180, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "SW1-SMD": {
+      "footprint": "smd-switch", 
+      "layer": "top", 
+      "location": [
+        8.211667, 
+        -20.364498
+      ], 
+      "rotate": 90, 
       "show": true, 
       "silkscreen": {
         "refdef": {
@@ -681,19 +711,19 @@
       "scale": 0.8, 
       "show": true
     }, 
-    "POUR": {
-      "footprint": "pours", 
-      "location": [
-        0, 
-        0
-      ], 
-      "show": true
-    }, 
     "POL": {
       "footprint": "polarity", 
       "location": [
         0, 
         -12
+      ], 
+      "show": true
+    }, 
+    "POUR": {
+      "footprint": "pours", 
+      "location": [
+        0, 
+        0
       ], 
       "show": true
     }, 
