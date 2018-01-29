@@ -48,14 +48,14 @@
           "type": "circle",
 	  "layers": ["top", "bottom"],
           "outline": 0,
-          "diameter": 1.9,
+          "diameter": 1.95,
           "offset": [0, 0] 
         }
       ],
       "drills":
       [
         {
-          "diameter": 1.1,
+          "diameter": 1.25,
           "offset": [0, 0]
         }
       ]
@@ -67,15 +67,15 @@
         {
           "type": "rect",
 	  "layers": ["top", "bottom"],
-          "width": 1.9,
-          "height": 1.9,
+          "width": 1.95,
+          "height": 1.95,
           "radii": {"tl": 0.3, "tr": 0.3, "bl": 0.3, "br": 0.3}
         }
       ],
       "drills":
       [
         {
-          "diameter": 1.1,
+          "diameter": 1.25,
           "offset": [0, 0]
         }
       ]
