@@ -663,7 +663,7 @@
       "layer": "bottom", 
       "location": [
         -3.060139, 
-        -20.613127
+        -19.788653
       ], 
       "scale": 0.8, 
       "show": true, 
@@ -687,6 +687,16 @@
         0, 
         -2.161061
       ], 
+      "show": true
+    }, 
+    "NFCU": {
+      "footprint": "info", 
+      "layer": "bottom", 
+      "location": [
+        -5.894401, 
+        -3.604948
+      ], 
+      "rotate": -90, 
       "show": true
     }, 
     "PIPS-B": {
