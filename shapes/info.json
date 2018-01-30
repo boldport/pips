@@ -1,0 +1,25 @@
+{
+  "layout":
+  {
+    "silkscreen":
+    {
+      "shapes":
+      [
+        {
+          "font-family": "Overlock-Regular-OTF-webfont", 
+          "font-size": "1.7mm", 
+          "letter-spacing": "0mm", 
+          "line-height": "4.3mm", 
+          "location": [
+            0, 
+            0
+          ], 
+          "rotate": 0, 
+          "style": "fill", 
+          "type": "text", 
+          "value": "* not for cryptographic use"
+        }
+      ]
+    }
+  }  
+}
