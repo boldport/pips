@@ -681,6 +681,16 @@
       ], 
       "show": true
     }, 
+    "DIGI": {
+      "footprint": "digital", 
+      "layer": "bottom", 
+      "location": [
+        -7.501647, 
+        -9.142412
+      ], 
+      "rotate": -90, 
+      "show": true
+    }, 
     "LEG": {
       "footprint": "ss-legend", 
       "location": [
@@ -690,10 +700,10 @@
       "show": true
     }, 
     "NFCU": {
-      "footprint": "info", 
+      "footprint": "crypto", 
       "layer": "bottom", 
       "location": [
-        -5.894401, 
+        5.819061, 
         -3.604948
       ], 
       "rotate": -90, 
